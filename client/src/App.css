@@ -8,7 +8,14 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-.App {
-  text-align: center;
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #15284B;
+  min-height: 60px;
+  color: #fff;
 }
-
+.logo{
+  font-size: 25px;
+}

@@ -1,9 +1,13 @@
 import './App.css';
+import Header from './components/Header';
+import CardSet from './components/CardSet';
+import Button from './components/Button';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Header />
+      <CardSet />
     </div>
   );
 }
