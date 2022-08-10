@@ -6,16 +6,31 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #222222;
+}
+li{
+  list-style: none;
 }
 
 .navbar{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #15284B;
-  min-height: 60px;
-  color: #fff;
+  height: 70px;
+  border-bottom: 1px solid #ECECEC;
+  box-shadow: 0px 2px 5px #ECECEC;
 }
-.logo{
-  font-size: 25px;
+.navbar .container{
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuItems{
+  display: flex;
+}
+.items{
+  font-weight: bold;
+  margin-left: 50px;
 }
